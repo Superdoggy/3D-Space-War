@@ -32,7 +32,7 @@ var render = function () {
 	renderer.render(scene, camera);
 };
 
-$(document).ready(function(){
+window.addEventListener("load", function(){
   setup();
   init();
 })
