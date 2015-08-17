@@ -29,10 +29,12 @@ var setup = function() {
 var render = function () {
   requestAnimationFrame( render );
 
-	renderer.render(scene, camera);
+  renderer.render(scene, camera);
 };
 
 window.addEventListener("load", function(){
-  setup();
-  init();
-})
+  setTimeout(function() {
+    setup();
+    init();
+  }, 2000);
+});
