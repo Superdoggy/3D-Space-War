@@ -21,7 +21,7 @@ var setup = function() {
   document.body.appendChild( renderer.domElement );
 
   camera.position.z = 5;
-  daeloader.load('https://github.com/Superdoggy/3D-Space-War/blob/gh-pages/TestSphere.dae', function(collada){
+  daeloader.load('http://superdoggy.github.io/3D-Space-War/TestSphere.dae', function(collada){
     scene.add(collada.scene); //So... does this add the model itself to the scene? I'm assuming collada is the model. Hmm.
     render();
   })
