@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.73.0 commit date:2015-01-20, commit time:18:16, hash:bbf09d9</authoring_tool>
     </contributor>
-    <created>2015-08-17T22:11:43</created>
-    <modified>2015-08-17T22:11:43</modified>
+    <created>2015-08-17T22:16:56</created>
+    <modified>2015-08-17T22:16:56</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -122,7 +122,7 @@
         <technique sid="common">
           <phong>
             <emission>
-              <color sid="emission">0.03 0.03 0.03 1</color>
+              <color sid="emission">0.11 0.11 0.11 1</color>
             </emission>
             <ambient>
               <color sid="ambient">0 0 0 1</color>
@@ -131,10 +131,10 @@
               <texture texture="Spikes_png-sampler" texcoord="UVMap"/>
             </diffuse>
             <specular>
-              <color sid="specular">1 1 1 1</color>
+              <color sid="specular">0.07377048 0.07377048 0.07377048 1</color>
             </specular>
             <shininess>
-              <float sid="shininess">58</float>
+              <float sid="shininess">1</float>
             </shininess>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
