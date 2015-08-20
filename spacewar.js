@@ -20,7 +20,7 @@ var setup = function() {
   renderer.setSize( window.innerWidth, window.innerHeight );
   document.body.appendChild( renderer.domElement );
 
-  camera.position.z = 5;
+  camera.position.z = 20;
   daeloader.load('http://superdoggy.github.io/3D-Space-War/Spaceship2.dae', function(collada){
     scene.add(collada.scene); //So... does this add the model itself to the scene? I'm assuming collada is the model. Hmm.
     render();
