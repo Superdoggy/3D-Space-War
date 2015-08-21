@@ -27,7 +27,6 @@ var setup = function() {
   })
 }
 var render = function () {
-  camera.rotation.z += 1;
   requestAnimationFrame( render );
 
   renderer.render(scene, camera);
