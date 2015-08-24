@@ -25,6 +25,9 @@ var setup = function() {
     scene.add(collada.scene); //So... does this add the model itself to the scene? I'm assuming collada is the model. Hmm.
     render();
   })
+  var light = new THREE.PointLight( 0xffffff, 1, 100 );
+  light.position.set( 2, 0, 10 );
+  scene.add( light );
 }
 var render = function () {
   requestAnimationFrame( render );
