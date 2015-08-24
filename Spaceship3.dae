@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.73.0 commit date:2015-01-20, commit time:18:16, hash:bbf09d9</authoring_tool>
     </contributor>
-    <created>2015-08-24T15:43:25</created>
-    <modified>2015-08-24T15:43:25</modified>
+    <created>2015-08-24T15:50:24</created>
+    <modified>2015-08-24T15:50:24</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -29,7 +29,7 @@
               <color sid="specular">1 1 1 1</color>
             </specular>
             <shininess>
-              <float sid="shininess">50</float>
+              <float sid="shininess">100</float>
             </shininess>
             <reflective>
               <color>1 1 1 1</color>
