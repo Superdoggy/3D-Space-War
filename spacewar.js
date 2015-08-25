@@ -1,3 +1,4 @@
+
 var canvascontext;
 
 var init = function() {
@@ -34,6 +35,17 @@ var render = function () {
 
   renderer.render(scene, camera);
 };
+var planet = function(size, position) {
+  this.size = size || 100;
+  this.position = position || {x:0, y:0, z:0};
+}
+var powerup = function(power, position) {
+  this.power = power || "nothing"
+  this.position = position || {x:0, y:0, z:0};
+}
+
+
+
 
 window.addEventListener("load", function(){
     setup();
